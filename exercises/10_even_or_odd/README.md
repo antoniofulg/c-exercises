@@ -11,20 +11,23 @@ Um inteiro.
 A palavra EVEN ou ODD.
 
 **Exemplo de entrada**
+
 ```text
 7
 ```
 
 **Exemplo de saida**
+
 ```text
 ODD
 ```
 
 **O que voce precisa fazer no codigo**
 Na funcao `solve(int value)`, o numero de entrada ja chega pelo parametro `value`.
-Voce deve retornar uma string com a resposta, como `"EVEN"`, `"ODD"`, `"POSITIVE"`, `"NEGATIVE"` ou `"ZERO"`.
+Voce deve retornar uma string com a resposta, como `"EVEN"` para `par` e `"ODD"` para `ímpar`.
 
 **Como resolver**
+
 1. Abra `main.c`.
 2. Complete a funcao `solve(...)`.
 3. Compile com `gcc -Wall -Wextra -std=c11 main.c -o program`.
@@ -32,6 +35,7 @@ Voce deve retornar uma string com a resposta, como `"EVEN"`, `"ODD"`, `"POSITIVE
 5. Se quiser consultar a resposta comentada, abra `solution.c`.
 
 **Comando unico a partir da pasta raiz do projeto**
+
 ```bash
 gcc -Wall -Wextra -std=c11 ./exercises/10_even_or_odd/main.c -o ./exercises/10_even_or_odd/program && ./exercises/10_even_or_odd/program --test
 ```
